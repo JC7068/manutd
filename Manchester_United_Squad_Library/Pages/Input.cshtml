@@ -1,0 +1,40 @@
+﻿@page
+@model Manchester_United_Squad_Library.Pages.InputModel
+@{
+}
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The Input Player Form</h1>
+
+<p>This is where you can add your onw players to the player library</p>
+
+<form action="/action_page.php">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" size="50"><br>
+
+  <label for="pst">Position:</label><br>
+  <input type="text" id="pst" name="pst" maxlength="4" size="50"><br>
+  
+  <label for="nat">Nation:</label><br>
+  <input type="text" id="nat" name="nat" maxlength="50" size="50"><br>
+  
+  <label for="age">Age:</label><br>
+  <input type="text" id="age" name="age" maxlength="4" size="50"><br>
+  
+  <label for="app">Appearances:</label><br>
+  <input type="text" id="app" name="app" maxlength="4" size="50"><br>
+  
+  <label for="win">Wins:</label><br>
+  <input type="text" id="win" name="win" maxlength="4" size="50"><br>
+  
+  <label for="goa">Goals:</label><br>
+  <input type="text" id="goa" name="goa" maxlength="4" size="50"><br>
+  
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
